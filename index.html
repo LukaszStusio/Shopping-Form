@@ -14,5 +14,36 @@
       href="https://fonts.googleapis.com/css?family=Inconsolata:400,700,900&amp;subset=latin-ext"
     />
   </head>
-  <body></body>
+  <body>
+    <main class="wrapper">
+      <h1>Shopping form</h1>
+      <p>Press F12 key & see the console logs</p>
+      <strong>#57</strong>
+      <p>
+        Table of content:
+      </p>
+      <ul>
+        <li>
+          events
+        </li>
+        <li>
+          local storage use
+        </li>
+        <ul>
+          <li class="nested">
+            converting objects to usable strings
+          </li>
+        </ul>
+      </ul>
+    </main>
+    <div class="shopping-list">
+      <form class="shopping" autocomplete="off">
+        <input type="text" name="item" id="item" required />
+        <button type="submit">+ Add Item</button>
+      </form>
+
+      <ul class="list"></ul>
+    </div>
+    <script src="shopping-form.js"></script>
+  </body>
 </html>
